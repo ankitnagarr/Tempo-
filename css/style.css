@@ -1,0 +1,695 @@
+*{ 
+    margin:0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    margin: 0; 
+    padding: 0; 
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}  
+   
+.header{  
+    background-image:url(../img/worling.webp);
+    background-size:cover ;  
+    background-position:center top ;  
+    margin-bottom: 20px;  
+    color: white;
+    background-attachment: fixed;
+    padding-bottom:  3rem;
+}  
+
+#navigation{
+    padding-top: 2rem;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}  
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #e43c5c;
+}
+
+.navbar-default .navbar-nav>li>a:focus {
+    color: #e43c5c;
+}
+
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #e43c5c;
+    font-size: 30px;
+
+}
+
+.navbar-default .navbar-brand:focus{
+    color: #e43c5c;
+}
+
+
+
+.navbar-nav li a {
+    color: black;
+    font-size: large;
+}
+
+.center{ 
+    text-align: center; 
+    color: white;
+    padding-top:5rem;
+    padding-bottom: 100px;
+} 
+
+.center .strong{
+    font-weight: bolder;
+}
+
+.center h1{
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.center h2{
+    font-size: 26px;
+}
+
+.center p{
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    padding: 17px 24px;
+    margin: auto;
+    display: inline-block;
+}
+
+.center .btn{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 8px 30px ;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background: border-box;
+    margin-top: 20px;
+}
+
+.center .btn:hover{
+    background-color:#e43c5c; 
+    animation-name: my-direction;  
+    animation-duration: 5s;
+    animation-timing-function: linear; 
+    animation-delay: 1s; 
+    animation-direction: reverse;
+}
+
+/* about-box stats*/
+
+.about{
+    /*background-color: pink;*/
+    text-align: center;    
+}
+
+.about h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight:800;
+    padding: 8px  20px;
+    line-height: 1;
+    background: #fdeff2;
+    color: #e43c5c;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.about span{
+    color: #e43c5c;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.about p{
+    font-weight: 600;
+    font-size: 16px;
+    color: gray;
+    padding-bottom: 3rem;
+}
+
+.left p{
+    font-weight: inherit;
+    line-height: 1.7;
+    font-size: 16px;
+}
+ 
+
+.right p{
+    font-weight: inherit;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.right .btn{
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: 2px solid #e43c5c;
+    background: border-box;
+    color: #e43c5c;
+}
+
+.right .btn:hover{
+    background-color:#e43c5c; 
+    animation-name: my-direction;  
+    animation-duration: 5s;
+    animation-timing-function: linear; 
+    animation-delay: 1s; 
+    animation-direction: reverse;
+    color: white;
+}
+
+.left ul li{
+    list-style: none;
+    font-size: 16px;
+}
+
+.about ul{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.fa-check-square-o:before {
+   font-size: large;
+}
+
+/*service-box stats*/
+
+.center-heading{
+    /*background-color: pink;*/
+    text-align: center;
+    line-height: 3rem;
+    margin-top: 5rem;   
+}
+
+
+
+.four{
+    box-shadow: 2px 0px 12px 0px gainsboro;
+    text-align: center;
+    padding: 4rem;
+}
+
+.four:hover{
+    background-color:#e43c5c; 
+    animation-name: my-direction;  
+    animation-duration: 5s;
+    animation-timing-function: linear; 
+    animation-delay: 1s; 
+    animation-direction: reverse;
+    color: white;
+}
+
+.center-heading h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    padding: 8px 20px;
+    line-height: 1;
+    background: #fdeff2;
+    color: #e43c5c;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.center-heading span{
+    color: #e43c5c;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.four:hover span{
+    color: white;
+}
+
+.center-heading h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.center-heading p{
+    font-weight: 600;
+    font-size: 16px;
+    color: gray;
+    padding-bottom: 3rem;
+}
+
+.four h4{
+   color: black;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.four:hover h4{
+    color: white;
+}
+
+.fa{
+    font-size: xx-large;
+    color:#e43c5c;
+}
+
+.four p{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+/*service-box end*/
+
+/*icon-box stats*/
+
+.icon-box{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 2px 0px 12px 0px gainsboro;
+
+}
+   
+.icon-box p{
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.icon-box .fa{
+    font-size: xx-large;
+}
+
+.fa-archive{
+    color: #ffbb2c
+}
+
+.fa-bar-chart{
+    color:#5578ff;
+}
+
+.fa-calendar{
+    color: deeppink;
+}
+
+.fa-paint-brush{
+   color:  #e361ff;
+}
+
+
+.fa-database{
+    color: #47aeff;
+}
+
+.fa-server{
+    color: #ffa76e;
+}
+
+.fa-file-text-o{
+   color:#11dbcf;
+}
+
+.fa-briefcase{
+    color:#4233ff ;
+}
+
+.fa-anchor{
+    color:#b2904f ;
+}
+
+.fa-map{
+    color:#b20969 ;
+}
+
+.fa-university{
+    color:#ff5828 ;
+}
+
+.fa-windows{
+    color:#29cc61 ;
+}
+
+/*icon-box end*/
+
+/*call-box stats*/
+
+.section{
+    background-image:url(../img/cta-bg\ \(1\).png);
+    background-size:cover ;  
+    background-position:center top ;
+    margin-top: 5rem;
+    color: white;
+    background-attachment: fixed;
+   
+
+}
+
+.call-heading{
+    text-align: center;
+    padding: 4rem;
+}
+
+.call-heading h3{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.call-heading p{
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.call-heading .btn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    background: border-box;
+    margin-top: 20px;
+}
+
+.call-heading .btn:hover{
+    background-color:#e43c5c; 
+    animation-name: my-direction;  
+    animation-duration: 5s;
+    animation-timing-function: linear; 
+    animation-delay: 1s; 
+    animation-direction: reverse;
+}
+
+
+
+/*call-box end*/ 
+
+
+/* portfolio-box*/
+
+.center-heading .fourbutton .btn{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    color: black;
+    background: gainsboro;
+}
+
+.btn-sm{
+    background-color: violet;
+   
+
+}
+
+
+.threeimg img{
+    width: 100%;
+    padding: 1rem;
+}
+
+/* portfolio-box end*/
+
+/* team-box*/
+
+
+.team .team-box img{
+    width: 100%;
+}
+
+.team-box{
+        box-shadow: 2px 0px 12px 0px gainsboro;
+        text-align: center;
+        padding-bottom: 2rem;
+}
+
+.team-box h4{
+    font-size: 17px;
+   font-weight: 600;
+}
+
+.team-box h5{
+    font-size: 14px;
+ }
+
+
+
+
+/*footer-box*/
+
+footer{
+    background-color: #f6f4f4;
+    padding: 2rem;
+    margin-top: 4rem;
+   
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.copyright p{
+    width: 50%;
+ 
+
+}
+
+.foursocial{
+    width: 50%;
+    align-items: center;
+    text-align: right;
+ 
+    
+}
+
+
+
+
+.foursocial i{
+    font-size: 18px;
+    display: inline-block;
+    background: #e43c5c;
+   color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    
+}
+
+
+
+
+
+
+/* media query starts*/
+
+ @media only screen and (max-width:600px){
+    
+    .center h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .center h2{
+        font-size: 18px;
+        line-height: 24px;
+}
+
+    .center h3{
+        width: 50%;
+        font-size: 24px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 50px;
+        padding: 20px 1px;
+        margin: auto;
+    }
+ }
+
+ @media only screen and (max-width:600px){ 
+    .about p{
+        padding: inherit;
+    }
+ }
+
+
+/* about-box media querys*/
+
+@media only screen and (max-width:600px){ 
+    .left p{
+        padding-left: 2rem;
+    }
+
+    .right p{
+        padding-left: 2rem;
+    }
+
+    .left ul li {
+        list-style: none;
+        padding-left: 2rem;
+    }
+ }
+
+ @media only screen and (max-width:992px){
+    .aboutbutton {
+        text-align-last: center;
+        margin-top: 3rem;
+    }
+ }
+
+
+ @media only screen and (max-width:600px){
+    .aboutbutton {
+        text-align-last: center;
+        margin-top: 3rem;
+    }
+ }
+
+
+
+
+
+
+
+/*service-box stats*/
+ 
+ @media only screen and (max-width: 1200px){
+    .col-lg-3.four:hover {
+    background-color:#e43c5c; 
+    animation-name: my-direction;  
+    animation-duration: 5s;
+    animation-timing-function: linear; 
+    animation-delay: 1s; 
+    animation-direction: reverse;
+}
+}
+
+@media only screen and (max-width: 992px){
+    .four{ 
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .four{ 
+        margin-top: 3rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+   .col-lg-3.four:hover {
+    background-color:#e43c5c; 
+    animation-name: my-direction;  
+    animation-duration: 5s;
+    animation-timing-function: linear; 
+    animation-delay: 1s; 
+    animation-direction: reverse;
+}
+}
+
+
+ @media only screen and (max-width: 600px){
+   .service p {
+      padding: inherit;
+}
+}
+
+ 
+ @media only screen and (max-width: 600px){
+    .col-lg-3.four p {
+        font-size: 16px;
+    }
+ 
+ }
+
+
+ /* team box media query*/
+
+ @media only screen and (max-width: 1200px){
+    .team-box{
+        margin-bottom: 2rem;
+    }
+ }
+
+
+
+ @media only screen and (max-width: 600px){
+    .foursocial{
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .copyright{
+        align-items: center;
+    }
+
+    .copyright p{
+        width: 100%;
+        text-align: center;
+    }
+
+    .team-box{
+        margin-bottom: 2rem;
+    }
+
+
+ }
+
+ 
+
+
+
+ 
+
